@@ -22,10 +22,9 @@ This project is an Android application that displays information about parliamen
 
 ## Screenshots
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png" alt="Screenshot 1" style="width: 45%;" />
-    <img src="app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png" alt="Screenshot 2" style="width: 45%;" />
-</div>
+Image Sample 1             |  Image Sample 2
+:-------------------------:|:-------------------------:
+![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png){ width=45% }  |  ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png){ width=45% }
 
 ## Getting Started
 
