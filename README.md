@@ -22,9 +22,9 @@ This project is an Android application that displays information about parliamen
 
 ## Screenshots
 
-Image Sample 1             |  Image Sample 2
-:-------------------------:|:-------------------------:
-![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png)|  ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png)
+|                                         Image Sample 1                                         |                                         Image Sample 2                                         |
+|:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png) | ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png) |
 
 ## Getting Started
 
