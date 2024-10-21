@@ -22,10 +22,9 @@ This project is an Android application that displays information about parliamen
 
 ## Screenshots
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png" alt="Screenshot 1" style="width: 45%;" />
-    <img src="app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png" alt="Screenshot 2" style="width: 45%;" />
-</div>
+|                                         Image Sample 1                                         |                                         Image Sample 2                                         |
+|:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000741.png) | ![](./app/src/main/java/com/example/parliamentmembers/pictures/Screenshot_20241022_000934.png) |
 
 ## Getting Started
 
@@ -92,11 +91,11 @@ The `MinisterViewModel` class manages the data for the `MinisterScreen` composab
 
 ### Repository
 
-The `MinisterRepository` class handles data operations for ministers, including fetching data from the network and storing it locally.
+The `RatingRepository` class handles data operations for ministers, including fetching data from the network and storing it locally.
 
 ### Network
 
-The `ApiService` interface defines the API endpoints, and the `RetrofitInstance` object provides the Retrofit instance for making network requests.
+The `ApiService` interface defines the API endpoints.
 
 ## Contributing
 
