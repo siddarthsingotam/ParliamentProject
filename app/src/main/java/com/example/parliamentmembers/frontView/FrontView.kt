@@ -18,6 +18,7 @@ import android.view.inputmethod.InputMethodManager
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -28,6 +29,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import coil3.compose.rememberAsyncImagePainter
@@ -127,7 +129,8 @@ fun MinisterScreen(viewModel: MinisterViewModel) {
                 label = { Text("Rating (0-5)") },
                 isError = ratingError || ratingEmptyError,
                 placeholder = { Text("0-5") },
-                textStyle = TextStyle(color = Color.Blue)
+                textStyle = TextStyle(color = Color.Blue),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
             if (ratingEmptyError) {
                 Text(
